@@ -1,0 +1,40 @@
+@import '../../../styles/colors.css';
+.movie-item {
+  position: relative;
+  display: block;
+  min-height: 325px;
+  border-collapse: separate;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgb(248, 247, 247);
+}
+.movie-item-image img {
+  width: 100%;
+  border-radius: 5px;
+  height: 275px;
+  object-fit: cover;
+}
+
+.movie-item-rating {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: auto;
+  left: auto;
+  background-color: #202020;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.movie-item-rating .app-icon {
+  margin-right: 5px;
+  color: yellow;
+}
+
+.movie-item .title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin: 0.5rem;
+  height: 30px;
+}
