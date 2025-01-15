@@ -5,7 +5,7 @@ import { IMAGES_SIZES } from '../../constants/images-sizes';
 @Component({
   selector: 'movie-item',
   templateUrl: './movie-item.component.html',
-  styleUrls: ['./movie-item.component.css']
+  styleUrls: ['./movie-item.component.scss']
 })
 export class MovieItemComponent implements OnInit {
   @Input() itemData: Movie | null = null;
